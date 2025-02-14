@@ -1,6 +1,6 @@
 
 const messages = [
-    "nhớ nhớ nhớ em...!"
+    "iu Ngân nhiều ... ❤️"
 ]
 
 function genNotification(){
@@ -22,7 +22,7 @@ function genNotification(){
             notification.innerHTML = `
                 <div class="notification-header">
                     <button class="minimize-btn" onclick="minimizeNotification(this)"></button>
-                    <span>Tràn ngập bộ nhớ</span>
+                    <span>Tràn ngập bộ nhớ Ngân ❤️</span>
                 </div>
                 <p>${randomMessage}</p>
             `;
